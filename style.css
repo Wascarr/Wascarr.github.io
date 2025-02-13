@@ -20,9 +20,9 @@ body {
 }
 h1 {
     font-size: 3em;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
-button {
+.button {
     padding: 15px 50px;
     font-size: 1.2em;
     background-color: #133152;
@@ -31,7 +31,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin: 10px 0;
+    text-decoration: none;
 }
 button:hover {
     background-color: #0056b3;
