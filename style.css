@@ -1,0 +1,38 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://wallpaperaccess.com/full/2270823.png'); /* Cambia esto por la URL de tu wallpaper */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 50px;
+}
+.button {
+    padding: 15px 50px;
+    font-size: 1.2em;
+    background-color: #133152;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+button:hover {
+    background-color: #0056b3;
+}
